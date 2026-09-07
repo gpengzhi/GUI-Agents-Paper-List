@@ -2,6 +2,88 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: Task-Adaptive Rubrics for GUI Reward Modeling
+  link: https://arxiv.org/abs/2608.24174
+  authors:
+  - Tao Xiong
+  - Xavier Hu
+  - Wenkai Wang
+  - Qinzhuo Wu
+  - Changqiao Wu
+  - Pengzhi Gao
+  - Wei Liu
+  - Jian Luan
+  - Shengyu Zhang
+  institutions:
+  - Zhejiang University
+  - MiLM Plus
+  - Xiaomi
+  date: '2026-08-25'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - reward model
+  - task-adaptive rubric
+  - outcome verification
+  - reinforcement learning
+  - AdaptRubric
+  tldr: |-
+    AdaptRubric makes GUI reward verification task-adaptive by routing each instruction to a task family for coarse rubric retrieval and then generating instance-level checks for concrete values, scopes, and constraints. It improves offline reward F1 by 3.6 points over the matched baseline average and raises downstream task success by 4.23 points in online reinforcement learning.
+  arxiv_id: '2608.24174'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.24174
+  bibtex: |-
+    @misc{xiong2026taskadaptive,
+      title = {Task-Adaptive Rubrics for GUI Reward Modeling},
+      author = {Tao Xiong and Xavier Hu and Wenkai Wang and Qinzhuo Wu and Changqiao Wu and Pengzhi Gao and Wei Liu and Jian Luan and Shengyu Zhang},
+      year = {2026},
+      eprint = {2608.24174},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.24174}
+    }
+  bibtex_confirmed: false
+- title: 'GSAR: Goal-State-Anchor Rewards for Mobile GUI Agents with Self-Evolving Data Synthesis'
+  link: https://arxiv.org/abs/2608.22847
+  authors:
+  - Long Zhang
+  - Yuhan Chen
+  - Chaoran Zhang
+  - Wanxia Cao
+  - Kun Huang
+  - Pengzhi Gao
+  - Wei Liu
+  - Jian Luan
+  - Chenliang Li
+  - Lixin Zou
+  institutions:
+  - Wuhan University
+  - Xiaomi
+  date: '2026-08-24'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - reinforcement learning
+  - reward model
+  - data synthesis
+  - goal-state anchors
+  - GSAR
+  tldr: |-
+    GSAR addresses the limited diversity of GUI-agent training environments and the unreliability of scalable evaluators with self-evolving task synthesis and goal-state anchors. The anchors identify task-relevant UI elements in successful states to provide accurate rewards, achieving over 90% offline trajectory-verification accuracy and improving agents on AndroidWorld and a new benchmark.
+  arxiv_id: '2608.22847'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.22847
+  bibtex: |-
+    @misc{zhang2026gsar,
+      title = {GSAR: Goal-State-Anchor Rewards for Mobile GUI Agents with Self-Evolving Data Synthesis},
+      author = {Long Zhang and Yuhan Chen and Chaoran Zhang and Wanxia Cao and Kun Huang and Pengzhi Gao and Wei Liu and Jian Luan and Chenliang Li and Lixin Zou},
+      year = {2026},
+      eprint = {2608.22847},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.22847}
+    }
+  bibtex_confirmed: false
 - title: 'CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications'
   link: https://arxiv.org/abs/2608.11588
   authors:
@@ -1036,6 +1118,69 @@
       url = {https://arxiv.org/abs/2607.06118}
     }
   bibtex_confirmed: false
+- title: Xiaomi-GUI-0 Technical Report
+  link: https://seerray-lab.github.io/Xiaomi-GUI-0/
+  authors:
+  - Wanxia Cao
+  - Chengzhen Duan
+  - Pei Fu
+  - Pengzhi Gao
+  - Niu Lian
+  - Fazhan Liu
+  - Hui Liu
+  - Heng Qu
+  - Qinzhuo Wu
+  - Zhehao Yu
+  - Tongbo Chen
+  - Shiqi Cui
+  - Anan Du
+  - Shukai Jia
+  - Yuanfa Li
+  - Wei Liu
+  - Yike Liu
+  - Wenchao Lu
+  - Zhenbo Luo
+  - Haoyuan Sun
+  - Jiatong Sun
+  - Cheng Tan
+  - Yajie Wang
+  - Changqiao Wu
+  - Tao Xiong
+  - Jiahui Yang
+  - Yuxuan Yuan
+  - Ruoceng Zhang
+  - Shaojie Zhang
+  - Jian Zhu
+  - Jian Luan
+  - Cong Zou
+  institutions:
+  - Xiaomi
+  date: '2026-06-30'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - model
+  - real-device training
+  - real-world deployment
+  - error recovery
+  - Xiaomi-GUI-0
+  tldr: |-
+    Xiaomi-GUI-0 trains and evaluates a native multimodal mobile GUI agent in a real-device-dominant closed loop instead of relying only on offline trajectories and simulated environments. Its multi-source data, error-driven flywheel, and progressive SFT/step-RL/agentic-RL pipeline reach 72.0% on the RealMobile benchmark and 78.9% on AndroidWorld, while improving abnormal-state recognition and recovery.
+  arxiv_id: '2606.31410'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.31410
+    homepage: https://seerray-lab.github.io/Xiaomi-GUI-0/
+  bibtex: |-
+    @misc{cao2026xiaomiguizero,
+      title = {Xiaomi-GUI-0 Technical Report},
+      author = {Wanxia Cao and Chengzhen Duan and Pei Fu and Pengzhi Gao and Niu Lian and Fazhan Liu and Hui Liu and Heng Qu and Qinzhuo Wu and Zhehao Yu and Tongbo Chen and Shiqi Cui and Anan Du and Shukai Jia and Yuanfa Li and Wei Liu and Yike Liu and Wenchao Lu and Zhenbo Luo and Haoyuan Sun and Jiatong Sun and Cheng Tan and Yajie Wang and Changqiao Wu and Tao Xiong and Jiahui Yang and Yuxuan Yuan and Ruoceng Zhang and Shaojie Zhang and Jian Zhu and Jian Luan and Cong Zou},
+      year = {2026},
+      eprint = {2606.31410},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.31410}
+    }
+  bibtex_confirmed: false
 - title: 'AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction'
   link: https://arxiv.org/abs/2606.23449
   authors:
@@ -1082,6 +1227,50 @@
       eprint = {2606.23449},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2606.23449}
+    }
+  bibtex_confirmed: false
+- title: 'Mobile GUI Agents under Real-world Threats: Are We There Yet?'
+  link: https://agenthazard.github.io
+  authors:
+  - Guohong Liu
+  - Jialei Ye
+  - Jiacheng Liu
+  - Wei Liu
+  - Pengzhi Gao
+  - Jian Luan
+  - Yuanchun Li
+  - Yunxin Liu
+  institutions:
+  - AIR, Tsinghua
+  - University of Electronic Science and Technology of China
+  - PKU
+  - MiLM Plus
+  - Xiaomi
+  date: '2026-06-20'
+  publisher: MobiSys 2026
+  envs:
+  - Mobile
+  keywords:
+  - safety
+  - security
+  - adversarial attacks
+  - third-party content
+  - AgentHazard
+  tldr: |-
+    AgentHazard evaluates mobile GUI agents when untrusted third-party content appears inside otherwise legitimate app regions, a threat missing from standard static-content benchmarks. Its instrumentation framework supports a dynamic environment with 122 tasks and a static dataset with more than 3,000 scenarios; evaluated agents show average misleading rates of 42.0% and 36.1% in the two settings.
+  sources:
+    publisher_page: https://doi.org/10.1145/3745756.3809249
+    homepage: https://agenthazard.github.io
+    code: https://github.com/Zsbyqx20/AgentHazard
+    dataset: https://github.com/Zsbyqx20/AWAttackerApplier
+  bibtex: |-
+    @inproceedings{liu2026mobilethreats,
+      title = {Mobile GUI Agents under Real-world Threats: Are We There Yet?},
+      author = {Guohong Liu and Jialei Ye and Jiacheng Liu and Wei Liu and Pengzhi Gao and Jian Luan and Yuanchun Li and Yunxin Liu},
+      year = {2026},
+      booktitle = {Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services},
+      doi = {10.1145/3745756.3809249},
+      url = {https://doi.org/10.1145/3745756.3809249}
     }
   bibtex_confirmed: false
 - title: 'Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents'
@@ -1601,6 +1790,46 @@
       url = {https://arxiv.org/abs/2605.27761}
     }
   bibtex_confirmed: false
+- title: Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation
+  link: https://arxiv.org/abs/2605.27134
+  authors:
+  - Heng Qu
+  - Yike Liu
+  - Renren Jin
+  - Wenzong Zhang
+  - Pengzhi Gao
+  - Wei Liu
+  - Jian Luan
+  institutions:
+  - MiLM Plus
+  - Xiaomi
+  date: '2026-05-26'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - dataset
+  - benchmark
+  - data scaling
+  - reasoning
+  - HyperTrack
+  - GUIEvalKit
+  tldr: |-
+    This study examines data scaling, benchmarking, and reasoning for VLM-based mobile GUI agents. It introduces HyperTrack, a dataset of more than 16,000 tasks across over 650 Chinese mobile apps, and GUIEvalKit for unified offline evaluation, finding that reinforcement-based fine-tuning is especially effective for out-of-domain generalization.
+  arxiv_id: '2605.27134'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.27134
+    code: https://github.com/xiaomi-research/guievalkit
+  bibtex: |-
+    @misc{qu2026scaling,
+      title = {Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation},
+      author = {Heng Qu and Yike Liu and Renren Jin and Wenzong Zhang and Pengzhi Gao and Wei Liu and Jian Luan},
+      year = {2026},
+      eprint = {2605.27134},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.27134}
+    }
+  bibtex_confirmed: false
 - title: 'MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research'
   link: https://arxiv.org/abs/2605.26114
   authors:
@@ -1647,8 +1876,8 @@
       url = {https://arxiv.org/abs/2605.26114}
     }
   bibtex_confirmed: false
-- title: 'SimuWoB: Simulating Real-World Mobile Apps for Fast and Faithful GUI Agent Benchmarking'
-  link: https://arxiv.org/abs/2605.25160
+- title: 'ScaleWoB: Guiding GUI Agents with Coding Agents via Large-Scale Environmental Synthesis'
+  link: https://scalewob.github.io
   authors:
   - Guohong Liu
   - Jialei Ye
@@ -1658,24 +1887,31 @@
   - Yunxin Liu
   - Yuanchun Li
   institutions:
-  - Unknown
+  - AIR, Tsinghua
+  - University of Electronic Science and Technology of China
+  - MiLM Plus
+  - Xiaomi
   date: '2026-05-24'
   publisher: arXiv
   envs:
   - Mobile
   keywords:
+  - framework
   - benchmark
-  - simulation
+  - environment synthesis
+  - verifiable rewards
   - long-horizon tasks
-  - SimuWoB
+  - ScaleWoB
   tldr: |-
-    SimuWoB is a synthetic benchmark for mobile GUI agents with 120 tasks spanning diverse interaction types and difficulty levels. It generates high-fidelity mobile environments as backend-free webpages with automatic rewards, revealing low success rates for current mobile GUI agents, especially on long-horizon tasks.
+    ScaleWoB uses coding agents to synthesize high-fidelity, backend-free interactive environments with verifiable rewards for GUI-agent evaluation and training across mobile, desktop, and automotive interfaces. Its release covers more than 100 environments and 1,000 tasks, including a 120-task mobile benchmark where current agents average 27.92% success and only 17.82% on long-horizon tasks, compared with 92.08% for humans.
   arxiv_id: '2605.25160'
   sources:
     arxiv: https://arxiv.org/abs/2605.25160
+    homepage: https://scalewob.github.io
+    code: https://github.com/ScaleWoB/ScaleWoB
   bibtex: |-
-    @misc{liu2026simuwob,
-      title = {SimuWoB: Simulating Real-World Mobile Apps for Fast and Faithful GUI Agent Benchmarking},
+    @misc{liu2026scalewob,
+      title = {ScaleWoB: Guiding GUI Agents with Coding Agents via Large-Scale Environmental Synthesis},
       author = {Guohong Liu and Jialei Ye and Pengzhi Gao and Wei Liu and Jian Luan and Yunxin Liu and Yuanchun Li},
       year = {2026},
       eprint = {2605.25160},
@@ -1823,6 +2059,54 @@
       eprint = {2605.12294},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2605.12294}
+    }
+  bibtex_confirmed: false
+- title: How Mobile World Model Guides GUI Agents?
+  link: https://arxiv.org/abs/2605.10347
+  authors:
+  - Weikai Xu
+  - Kun Huang
+  - Yunren Feng
+  - Jiaxing Li
+  - Yuhan Chen
+  - Yuxuan Liu
+  - Zhizheng Jiang
+  - Heng Qu
+  - Pengzhi Gao
+  - Wei Liu
+  - Jian Luan
+  - Xiaolin Hu
+  - Bo An
+  institutions:
+  - Nanyang Technological University
+  - MiLM Plus
+  - Xiaomi
+  - Renmin University of China
+  - Wuhan University
+  - Xiamen University
+  date: '2026-05-11'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - world model
+  - model-based planning
+  - data synthesis
+  - test-time guidance
+  - MobileWorldBench
+  tldr: |-
+    This study compares delta-text, full-text, diffusion-image, and renderable-code mobile world models and evaluates how their generated rollouts guide GUI agents. Renderable code gives strong in-distribution fidelity and training supervision, while text feedback is more robust for online out-of-distribution execution; generated trajectories also improve end-to-end training, but do not preserve the original data distribution.
+  arxiv_id: '2605.10347'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.10347
+  bibtex: |-
+    @misc{xu2026mobileworldmodel,
+      title = {How Mobile World Model Guides GUI Agents?},
+      author = {Weikai Xu and Kun Huang and Yunren Feng and Jiaxing Li and Yuhan Chen and Yuxuan Liu and Zhizheng Jiang and Heng Qu and Pengzhi Gao and Wei Liu and Jian Luan and Xiaolin Hu and Bo An},
+      year = {2026},
+      eprint = {2605.10347},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.10347}
     }
   bibtex_confirmed: false
 - title: 'LiteGUI: Distilling Compact GUI Agents with Reinforcement Learning'
@@ -5539,6 +5823,53 @@
       eprint = {2604.09587},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2604.09587}
+    }
+  bibtex_confirmed: false
+- title: 'CoME: Empowering Channel-of-Mobile-Experts with Informative Hybrid-Capabilities Reasoning'
+  link: https://arxiv.org/abs/2602.24142
+  authors:
+  - Yuxuan Liu
+  - Weikai Xu
+  - Kun Huang
+  - Changyu Chen
+  - Jiankun Zhao
+  - Pengzhi Gao
+  - Wei Liu
+  - Jian Luan
+  - Shuo Shang
+  - Bo Du
+  - Ji-Rong Wen
+  - Rui Yan
+  institutions:
+  - Renmin University of China
+  - MiLM Plus
+  - Xiaomi
+  - Nanyang Technological University
+  - Wuhan University
+  date: '2026-02-27'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - model
+  - mixture of experts
+  - hybrid-capabilities reasoning
+  - progressive training
+  - Info-DPO
+  - CoME
+  tldr: |-
+    CoME aligns four output-oriented experts with the screen-summary, subtask-planning, action-decision, and action-function stages of mobile-agent reasoning. Progressive expert, router, and chain-of-thought training plus information-gain-driven DPO improve the balance and informativeness of intermediate reasoning, outperforming dense mobile agents and other MoE methods on AITZ and AMEX.
+  arxiv_id: '2602.24142'
+  sources:
+    arxiv: https://arxiv.org/abs/2602.24142
+  bibtex: |-
+    @misc{liu2026come,
+      title = {CoME: Empowering Channel-of-Mobile-Experts with Informative Hybrid-Capabilities Reasoning},
+      author = {Yuxuan Liu and Weikai Xu and Kun Huang and Changyu Chen and Jiankun Zhao and Pengzhi Gao and Wei Liu and Jian Luan and Shuo Shang and Bo Du and Ji-Rong Wen and Rui Yan},
+      year = {2026},
+      eprint = {2602.24142},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2602.24142}
     }
   bibtex_confirmed: false
 - title: 'GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL'
@@ -10712,6 +11043,54 @@
       url = {https://arxiv.org/abs/2511.21398}
     }
   bibtex_confirmed: false
+- title: 'STEP: Success-Rate-Aware Trajectory-Efficient Policy Optimization'
+  link: https://arxiv.org/abs/2511.13091
+  authors:
+  - Yuhan Chen
+  - Yuxuan Liu
+  - Long Zhang
+  - Pengzhi Gao
+  - Jian Luan
+  - Wei Liu
+  institutions:
+  - MiLM Plus
+  - Xiaomi
+  - Renmin University of China
+  - Wuhan University
+  date: '2025-11-17'
+  publisher: Findings of ACL 2026
+  envs:
+  - Desktop
+  - Mobile
+  keywords:
+  - reinforcement learning
+  - sample efficiency
+  - trajectory optimization
+  - step-level optimization
+  - OSWorld
+  - AndroidWorld
+  - STEP
+  tldr: |-
+    STEP improves the efficiency of online GUI-agent reinforcement learning by using per-task success rates to resample difficult tasks and decomposing trajectories into step-level training samples. Its success-rate-weighted advantages and step-level GRPO augmentation improve sample efficiency and training stability over trajectory-level GRPO on OSWorld and AndroidWorld.
+  arxiv_id: '2511.13091'
+  sources:
+    arxiv: https://arxiv.org/abs/2511.13091
+    publisher_page: https://aclanthology.org/2026.findings-acl.1532/
+  bibtex: |-
+    @inproceedings{chen-etal-2026-step,
+      title = "{STEP}: Success-Rate-Aware Trajectory-Efficient Policy Optimization",
+      author = "Chen, Yuhan and Liu, Yuxuan and Zhang, Long and Gao, Pengzhi and Luan, Jian and Liu, Wei",
+      booktitle = "Findings of the Association for Computational Linguistics: ACL 2026",
+      month = jul,
+      year = "2026",
+      address = "San Diego, California, United States",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2026.findings-acl.1532/",
+      doi = "10.18653/v1/2026.findings-acl.1532",
+      pages = "30681--30692",
+      ISBN = "979-8-89176-395-1"
+    }
+  bibtex_confirmed: true
 - title: Adapting Web Agents with Synthetic Supervision
   link: https://arxiv.org/abs/2511.06101
   authors:
@@ -10846,6 +11225,48 @@
       eprint = {2511.04307},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2511.04307}
+    }
+  bibtex_confirmed: false
+- title: 'Hijacking JARVIS: Benchmarking Mobile GUI Agents against Unprivileged Third Parties'
+  link: https://doi.org/10.1145/3737902.3768354
+  authors:
+  - Guohong Liu
+  - Jialei Ye
+  - Jiacheng Liu
+  - Yuanchun Li
+  - Wei Liu
+  - Pengzhi Gao
+  - Jian Luan
+  - Yunxin Liu
+  institutions:
+  - AIR, Tsinghua
+  - University of Electronic Science and Technology of China
+  - PKU
+  - MiLM Plus
+  - Xiaomi
+  date: '2025-11-04'
+  publisher: MobiCom 2025 Workshop
+  envs:
+  - Mobile
+  keywords:
+  - safety
+  - security
+  - benchmark
+  - adversarial interaction
+  - third-party interference
+  - JARVIS
+  tldr: |-
+    Hijacking JARVIS benchmarks whether mobile GUI agents can be redirected or disrupted by unprivileged third parties during task execution. It frames third-party interference as a mobile-agent security problem and evaluates agent behavior under hijacking-style threats beyond standard task-success benchmarks.
+  sources:
+    publisher_page: https://doi.org/10.1145/3737902.3768354
+  bibtex: |-
+    @inproceedings{liu2025hijacking,
+      title = {Hijacking JARVIS: Benchmarking Mobile GUI Agents against Unprivileged Third Parties},
+      author = {Guohong Liu and Jialei Ye and Jiacheng Liu and Yuanchun Li and Wei Liu and Pengzhi Gao and Jian Luan and Yunxin Liu},
+      year = {2025},
+      booktitle = {Proceedings of the 2nd International Workshop on Edge and Mobile Foundation Models},
+      doi = {10.1145/3737902.3768354},
+      url = {https://doi.org/10.1145/3737902.3768354}
     }
   bibtex_confirmed: false
 - title: 'WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation'
@@ -12508,6 +12929,48 @@
       eprint = {2509.23866},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2509.23866}
+    }
+  bibtex_confirmed: false
+- title: 'GUI-PRA: Process Reward Agent for GUI Tasks'
+  link: https://arxiv.org/abs/2509.23263
+  authors:
+  - Tao Xiong
+  - Xavier Hu
+  - Yurun Chen
+  - Yuhang Liu
+  - Changqiao Wu
+  - Pengzhi Gao
+  - Wei Liu
+  - Jian Luan
+  - Shengyu Zhang
+  institutions:
+  - Zhejiang University
+  - MiLM Plus
+  - Xiaomi
+  date: '2025-09-27'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - reward model
+  - process reward
+  - visual verification
+  - long-horizon tasks
+  - GUI-PRA
+  tldr: |-
+    GUI-PRA turns GUI process-reward evaluation from passive scoring into active investigation. It synthesizes state-specific verification criteria from experience and uses them to navigate visual tools and gather grounded evidence, improving success over standard process reward models on AndroidWorld and Mobile-MiniWoB++.
+  arxiv_id: '2509.23263'
+  sources:
+    arxiv: https://arxiv.org/abs/2509.23263
+    code: https://github.com/YuanDaoze/GUI-PRA
+  bibtex: |-
+    @misc{xiong2025guipra,
+      title = {GUI-PRA: Process Reward Agent for GUI Tasks},
+      author = {Tao Xiong and Xavier Hu and Yurun Chen and Yuhang Liu and Changqiao Wu and Pengzhi Gao and Wei Liu and Jian Luan and Shengyu Zhang},
+      year = {2025},
+      eprint = {2509.23263},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2509.23263}
     }
   bibtex_confirmed: false
 - title: 'ProRe: A Proactive Reward System for GUI Agents via Reasoner-Actor Collaboration'
