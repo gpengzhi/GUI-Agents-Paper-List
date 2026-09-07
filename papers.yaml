@@ -1172,6 +1172,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2606.31410
     homepage: https://seerray-lab.github.io/Xiaomi-GUI-0/
+    code: https://github.com/SeerRay-Lab/Xiaomi-GUI-0
   bibtex: |-
     @misc{cao2026xiaomiguizero,
       title = {Xiaomi-GUI-0 Technical Report},
@@ -8423,6 +8424,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2601.20335
     publisher_page: https://aclanthology.org/2026.findings-acl.668/
+    code: https://github.com/xiaomi-research/mobilebench-ol
   bibtex: |-
     @inproceedings{wu-etal-2026-mobilebench,
       title = "{M}obile{B}ench-{OL}: A Comprehensive {C}hinese Benchmark for Evaluating Mobile {GUI} Agents in Real-World Environment",
@@ -8693,51 +8695,6 @@
       year = {2026},
       booktitle = {ICLR 2026},
       url = {https://openreview.net/forum?id=BK7Mk5d4WE}
-    }
-  bibtex_confirmed: false
-- title: 'SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks'
-  link: https://openreview.net/forum?id=IWDpCaSF9Q
-  authors:
-  - Weikai Xu
-  - Zhizheng Jiang
-  - Yuxuan Liu
-  - Pengzhi Gao
-  - Wei Liu
-  - Jian Luan
-  - Yunxin Liu
-  - Yuanchun Li
-  - Bin Wang
-  - Bo An
-  institutions:
-  - NTU
-  - University of Electronic Science and Technology of China
-  - Renmin University of China
-  - MiLM Plus
-  - Xiaomi
-  - Institute for AI Industry Research
-  - Tsinghua
-  date: '2026-01-26'
-  publisher: ICLR 2026 (Poster)
-  envs:
-  - Mobile
-  keywords:
-  - benchmark
-  - dataset
-  - multi-path evaluation
-  - ambiguous instructions
-  - noisy environment
-  - SMAN-Bench
-  tldr: |-
-    SMAN-Bench evaluates mobile agents under single-path, multi-path, ambiguous, and noisy task settings that are poorly covered by prior benchmarks. It builds these splits from a graph-structured unlabeled mobile corpus, adds offline multi-path reward evaluation, and includes both contaminated noisy environments and preset Q&A interactions for ambiguous instructions.
-  sources:
-    openreview: https://openreview.net/forum?id=IWDpCaSF9Q
-  bibtex: |-
-    @inproceedings{xu2026smanbench,
-      title = {SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks},
-      author = {Weikai Xu and Zhizheng Jiang and Yuxuan Liu and Pengzhi Gao and Wei Liu and Jian Luan and Yunxin Liu and Yuanchun Li and Bin Wang and Bo An},
-      year = {2026},
-      booktitle = {ICLR 2026},
-      url = {https://openreview.net/forum?id=IWDpCaSF9Q}
     }
   bibtex_confirmed: false
 - title: 'SwipeGen: Bridging the Execution Gap in GUI Agents via Human-like Swipe Synthesis'
@@ -15616,6 +15573,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2505.20660
     publisher_page: https://aclanthology.org/2025.emnlp-main.212/
+    code: https://github.com/xiaomi-research/backtrackagent
   bibtex: |-
     @inproceedings{wu-etal-2025-backtrackagent,
       title = "{B}acktrack{A}gent: Enhancing {GUI} Agent with Error Detection and Backtracking Mechanism",
@@ -16454,7 +16412,7 @@
       url = {https://arxiv.org/abs/2505.12299}
     }
   bibtex_confirmed: false
-- title: 'Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents'
+- title: 'SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks'
   link: https://arxiv.org/abs/2505.11891
   authors:
   - Weikai Xu
@@ -16463,41 +16421,45 @@
   - Pengzhi Gao
   - Wei Liu
   - Jian Luan
-  - Yuanchun Li
   - Yunxin Liu
+  - Yuanchun Li
   - Bin Wang
   - Bo An
   institutions:
   - NTU
   - University of Electronic Science and Technology of China
   - Renmin University of China
-  - XiaoMi AI Lab
-  - Institute for AI Industry Research (AIR)
+  - MiLM Plus
+  - Xiaomi
+  - Institute for AI Industry Research
   - Tsinghua
   date: '2025-05-17'
-  publisher: arXiv
+  publisher: ICLR 2026 (Poster)
   envs:
   - Mobile
   keywords:
   - benchmark
+  - dataset
   - multi-path evaluation
-  - noisy environments
   - ambiguous instructions
-  - Mobile-Bench-v2
+  - noisy environment
+  - SMAN-Bench
   tldr: |-
-    Mobile-Bench-v2 is a more realistic mobile-agent benchmark that fixes three weaknesses of earlier evaluation: single-path scoring, unrealistically clean environments, and over-specified instructions. It adds multi-path offline evaluation, noisy app settings with pop-ups and ads, and ambiguous-instruction splits for testing proactive interaction.
+    SMAN-Bench evaluates mobile agents under single-path, multi-path, ambiguous, and noisy task settings that are poorly covered by prior benchmarks. It builds these splits from a graph-structured unlabeled mobile corpus, adds offline multi-path reward evaluation, and includes both contaminated noisy environments and preset Q&A interactions for ambiguous instructions.
   arxiv_id: '2505.11891'
   sources:
     arxiv: https://arxiv.org/abs/2505.11891
+    openreview: https://openreview.net/forum?id=IWDpCaSF9Q
     dataset: https://huggingface.co/datasets/xwk123/MobileBench-v2
   bibtex: |-
-    @misc{xu2025mobilebenchv2,
-      title = {Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents},
-      author = {Weikai Xu and Zhizheng Jiang and Yuxuan Liu and Pengzhi Gao and Wei Liu and Jian Luan and Yuanchun Li and Yunxin Liu and Bin Wang and Bo An},
-      year = {2025},
+    @inproceedings{xu2026smanbench,
+      title = {SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks},
+      author = {Weikai Xu and Zhizheng Jiang and Yuxuan Liu and Pengzhi Gao and Wei Liu and Jian Luan and Yunxin Liu and Yuanchun Li and Bin Wang and Bo An},
+      year = {2026},
+      booktitle = {ICLR 2026},
       eprint = {2505.11891},
       archivePrefix = {arXiv},
-      url = {https://arxiv.org/abs/2505.11891}
+      url = {https://openreview.net/forum?id=IWDpCaSF9Q}
     }
   bibtex_confirmed: false
 - title: 'A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?'
