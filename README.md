@@ -57,7 +57,7 @@ We welcome contributions from the community!
     - Long Zhang, Yuhan Chen, Chaoran Zhang, Wanxia Cao, Kun Huang, Pengzhi Gao, Wei Liu, Jian Luan, Chenliang Li, Lixin Zou
     - 🏛️ Institutions: Wuhan University, Xiaomi
     - 📅 Date: August 24, 2026
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: EMNLP 2026
     - 💻 Env: [Mobile]
     - 🔑 Key: [reinforcement learning], [reward model], [data synthesis], [goal-state anchors], [GSAR]
     - 📖 TLDR: GSAR addresses the limited diversity of GUI-agent training environments and the unreliability of scalable evaluators with self-evolving task synthesis and goal-state anchors. The anchors identify task-relevant UI elements in successful states to provide accurate rewards, achieving over 90% offline trajectory-verification accuracy and improving agents on AndroidWorld and a new benchmark.
@@ -2469,7 +2469,7 @@ We welcome contributions from the community!
     - Guohong Liu, Jialei Ye, Jiacheng Liu, Yuanchun Li, Wei Liu, Pengzhi Gao, Jian Luan, Yunxin Liu
     - 🏛️ Institutions: AIR, Tsinghua, University of Electronic Science and Technology of China, PKU, MiLM Plus, Xiaomi
     - 📅 Date: November 04, 2025
-    - 📑 Publisher: MobiCom 2025 Workshop
+    - 📑 Publisher: EdgeFM 2025 Workshop
     - 💻 Env: [Mobile]
     - 🔑 Key: [safety], [security], [benchmark], [adversarial interaction], [third-party interference], [JARVIS]
     - 📖 TLDR: Hijacking JARVIS benchmarks whether mobile GUI agents can be redirected or disrupted by unprivileged third parties during task execution. It frames third-party interference as a mobile-agent security problem and evaluates agent behavior under hijacking-style threats beyond standard task-success benchmarks.
@@ -2816,11 +2816,11 @@ We welcome contributions from the community!
     - 🔑 Key: [reinforcement learning], [decoupled training], [adaptive data curation], [asynchronous modules], [OSWorld], [DART]
     - 📖 TLDR: DART is a decoupled RL training framework for GUI agents that separates environment execution, rollout service, data management, and training into asynchronous modules to improve multi-turn learning efficiency. It pairs that system design with adaptive data curation, including difficulty-aware rollout control and high-entropy step selection, and substantially improves OSWorld performance over the base model.
 
-- [GUI-PRA: Process Reward Agent for GUI Tasks](https://arxiv.org/abs/2509.23263)
+- [GUI-PRA: Process Reward Agents for GUI Tasks](https://arxiv.org/abs/2509.23263)
     - Tao Xiong, Xavier Hu, Yurun Chen, Yuhang Liu, Changqiao Wu, Pengzhi Gao, Wei Liu, Jian Luan, Shengyu Zhang
     - 🏛️ Institutions: Zhejiang University, MiLM Plus, Xiaomi
     - 📅 Date: September 27, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: EMNLP 2026
     - 💻 Env: [Mobile]
     - 🔑 Key: [reward model], [process reward], [visual verification], [long-horizon tasks], [GUI-PRA]
     - 📖 TLDR: GUI-PRA turns GUI process-reward evaluation from passive scoring into active investigation. It synthesizes state-specific verification criteria from experience and uses them to navigate visual tools and gather grounded evidence, improving success over standard process reward models on AndroidWorld and Mobile-MiniWoB++.

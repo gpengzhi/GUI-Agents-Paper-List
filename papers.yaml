@@ -60,7 +60,7 @@
   - Wuhan University
   - Xiaomi
   date: '2026-08-24'
-  publisher: arXiv
+  publisher: EMNLP 2026
   envs:
   - Mobile
   keywords:
@@ -75,10 +75,11 @@
   sources:
     arxiv: https://arxiv.org/abs/2608.22847
   bibtex: |-
-    @misc{zhang2026gsar,
+    @inproceedings{zhang2026gsar,
       title = {GSAR: Goal-State-Anchor Rewards for Mobile GUI Agents with Self-Evolving Data Synthesis},
       author = {Long Zhang and Yuhan Chen and Chaoran Zhang and Wanxia Cao and Kun Huang and Pengzhi Gao and Wei Liu and Jian Luan and Chenliang Li and Lixin Zou},
       year = {2026},
+      booktitle = {EMNLP 2026},
       eprint = {2608.22847},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2608.22847}
@@ -11258,7 +11259,7 @@
   - MiLM Plus
   - Xiaomi
   date: '2025-11-04'
-  publisher: MobiCom 2025 Workshop
+  publisher: EdgeFM 2025 Workshop
   envs:
   - Mobile
   keywords:
@@ -12944,7 +12945,7 @@
       url = {https://arxiv.org/abs/2509.23866}
     }
   bibtex_confirmed: false
-- title: 'GUI-PRA: Process Reward Agent for GUI Tasks'
+- title: 'GUI-PRA: Process Reward Agents for GUI Tasks'
   link: https://arxiv.org/abs/2509.23263
   authors:
   - Tao Xiong
@@ -12961,7 +12962,7 @@
   - MiLM Plus
   - Xiaomi
   date: '2025-09-27'
-  publisher: arXiv
+  publisher: EMNLP 2026
   envs:
   - Mobile
   keywords:
@@ -12977,10 +12978,11 @@
     arxiv: https://arxiv.org/abs/2509.23263
     code: https://github.com/YuanDaoze/GUI-PRA
   bibtex: |-
-    @misc{xiong2025guipra,
-      title = {GUI-PRA: Process Reward Agent for GUI Tasks},
+    @inproceedings{xiong2026guipra,
+      title = {GUI-PRA: Process Reward Agents for GUI Tasks},
       author = {Tao Xiong and Xavier Hu and Yurun Chen and Yuhang Liu and Changqiao Wu and Pengzhi Gao and Wei Liu and Jian Luan and Shengyu Zhang},
-      year = {2025},
+      year = {2026},
+      booktitle = {EMNLP 2026},
       eprint = {2509.23263},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2509.23263}
