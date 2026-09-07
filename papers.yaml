@@ -15613,17 +15613,23 @@
   arxiv_id: '2505.20660'
   sources:
     arxiv: https://arxiv.org/abs/2505.20660
+    publisher_page: https://aclanthology.org/2025.emnlp-main.212/
   bibtex: |-
-    @inproceedings{wu2025backtrackagent,
-      title = {BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism},
-      author = {Qinzhuo Wu and Pengzhi Gao and Wei Liu and Jian Luan},
-      year = {2025},
-      booktitle = {EMNLP 2025},
-      eprint = {2505.20660},
-      archivePrefix = {arXiv},
-      url = {https://arxiv.org/abs/2505.20660}
+    @inproceedings{wu-etal-2025-backtrackagent,
+      title = "{B}acktrack{A}gent: Enhancing {GUI} Agent with Error Detection and Backtracking Mechanism",
+      author = "Wu, Qinzhuo and Gao, Pengzhi and Liu, Wei and Luan, Jian",
+      editor = "Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet",
+      booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+      month = nov,
+      year = "2025",
+      address = "Suzhou, China",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2025.emnlp-main.212/",
+      doi = "10.18653/v1/2025.emnlp-main.212",
+      pages = "4250--4272",
+      ISBN = "979-8-89176-332-6"
     }
-  bibtex_confirmed: false
+  bibtex_confirmed: true
 - title: 'UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents'
   link: https://arxiv.org/abs/2505.21496
   authors:
