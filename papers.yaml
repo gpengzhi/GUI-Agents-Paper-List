@@ -1804,7 +1804,7 @@
   - MiLM Plus
   - Xiaomi
   date: '2026-05-26'
-  publisher: arXiv
+  publisher: ICML 2026 (Poster)
   envs:
   - Mobile
   keywords:
@@ -1819,15 +1819,17 @@
   arxiv_id: '2605.27134'
   sources:
     arxiv: https://arxiv.org/abs/2605.27134
+    openreview: https://openreview.net/forum?id=Zyjrz6R7zn
     code: https://github.com/xiaomi-research/guievalkit
   bibtex: |-
-    @misc{qu2026scaling,
+    @inproceedings{qu2026scaling,
       title = {Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation},
       author = {Heng Qu and Yike Liu and Renren Jin and Wenzong Zhang and Pengzhi Gao and Wei Liu and Jian Luan},
       year = {2026},
+      booktitle = {ICML 2026},
       eprint = {2605.27134},
       archivePrefix = {arXiv},
-      url = {https://arxiv.org/abs/2605.27134}
+      url = {https://openreview.net/forum?id=Zyjrz6R7zn}
     }
   bibtex_confirmed: false
 - title: 'MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research'
@@ -5847,7 +5849,7 @@
   - Nanyang Technological University
   - Wuhan University
   date: '2026-02-27'
-  publisher: arXiv
+  publisher: ICML 2026 (Poster)
   envs:
   - Mobile
   keywords:
@@ -5862,14 +5864,16 @@
   arxiv_id: '2602.24142'
   sources:
     arxiv: https://arxiv.org/abs/2602.24142
+    openreview: https://openreview.net/forum?id=SYgaKYKDZl
   bibtex: |-
-    @misc{liu2026come,
+    @inproceedings{liu2026come,
       title = {CoME: Empowering Channel-of-Mobile-Experts with Informative Hybrid-Capabilities Reasoning},
       author = {Yuxuan Liu and Weikai Xu and Kun Huang and Changyu Chen and Jiankun Zhao and Pengzhi Gao and Wei Liu and Jian Luan and Shuo Shang and Bo Du and Ji-Rong Wen and Rui Yan},
       year = {2026},
+      booktitle = {ICML 2026},
       eprint = {2602.24142},
       archivePrefix = {arXiv},
-      url = {https://arxiv.org/abs/2602.24142}
+      url = {https://openreview.net/forum?id=SYgaKYKDZl}
     }
   bibtex_confirmed: false
 - title: 'GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL'
@@ -8402,7 +8406,7 @@
   - PKU
   - CUHK
   date: '2026-01-28'
-  publisher: arXiv
+  publisher: Findings of ACL 2026
   envs:
   - Mobile
   keywords:
@@ -8417,16 +8421,23 @@
   arxiv_id: '2601.20335'
   sources:
     arxiv: https://arxiv.org/abs/2601.20335
+    publisher_page: https://aclanthology.org/2026.findings-acl.668/
   bibtex: |-
-    @misc{wu2026mobilebenchol,
-      title = {MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment},
-      author = {Qinzhuo Wu and Zhizhuo Yang and Hanhao Li and Pengzhi Gao and Wei Liu and Jian Luan},
-      year = {2026},
-      eprint = {2601.20335},
-      archivePrefix = {arXiv},
-      url = {https://arxiv.org/abs/2601.20335}
+    @inproceedings{wu-etal-2026-mobilebench,
+      title = "{M}obile{B}ench-{OL}: A Comprehensive {C}hinese Benchmark for Evaluating Mobile {GUI} Agents in Real-World Environment",
+      author = "Wu, Qinzhuo and Yang, Zhizhuo and Li, Hanhao and Gao, Pengzhi and Liu, Wei and Luan, Jian",
+      editor = "Liakata, Maria and Moreira, Viviane P. and Zhang, Jiajun and Jurgens, David",
+      booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+      month = jul,
+      year = "2026",
+      address = "San Diego, California, United States",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2026.findings-acl.668/",
+      doi = "10.18653/v1/2026.findings-acl.668",
+      pages = "13659--13693",
+      ISBN = "979-8-89176-395-1"
     }
-  bibtex_confirmed: false
+  bibtex_confirmed: true
 - title: 'OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks'
   link: https://arxiv.org/abs/2601.20650
   authors:
@@ -8717,6 +8728,8 @@
   - SMAN-Bench
   tldr: |-
     SMAN-Bench evaluates mobile agents under single-path, multi-path, ambiguous, and noisy task settings that are poorly covered by prior benchmarks. It builds these splits from a graph-structured unlabeled mobile corpus, adds offline multi-path reward evaluation, and includes both contaminated noisy environments and preset Q&A interactions for ambiguous instructions.
+  sources:
+    openreview: https://openreview.net/forum?id=IWDpCaSF9Q
   bibtex: |-
     @inproceedings{xu2026smanbench,
       title = {SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks},
@@ -16376,6 +16389,7 @@
   arxiv_id: '2505.12493'
   sources:
     arxiv: https://arxiv.org/abs/2505.12493
+    openreview: https://openreview.net/forum?id=NakMHPljT7
     code: https://github.com/UbiquitousLearning/GUI-Shift
   bibtex: |-
     @inproceedings{gao2025guishift,
@@ -16419,6 +16433,7 @@
   arxiv_id: '2505.12299'
   sources:
     arxiv: https://arxiv.org/abs/2505.12299
+    openreview: https://openreview.net/forum?id=PS8iu4PxKz
     dataset: https://huggingface.co/datasets/xwk123/MobileIPL-dataset
   bibtex: |-
     @inproceedings{huang2025mobileipl,

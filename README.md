@@ -435,7 +435,7 @@ We welcome contributions from the community!
     - Heng Qu, Yike Liu, Renren Jin, Wenzong Zhang, Pengzhi Gao, Wei Liu, Jian Luan
     - 🏛️ Institutions: MiLM Plus, Xiaomi
     - 📅 Date: May 26, 2026
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICML 2026 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [dataset], [benchmark], [data scaling], [reasoning], [HyperTrack], [GUIEvalKit]
     - 📖 TLDR: This study examines data scaling, benchmarking, and reasoning for VLM-based mobile GUI agents. It introduces HyperTrack, a dataset of more than 16,000 tasks across over 650 Chinese mobile apps, and GUIEvalKit for unified offline evaluation, finding that reinforcement-based fine-tuning is especially effective for out-of-domain generalization.
@@ -1326,7 +1326,7 @@ We welcome contributions from the community!
     - Yuxuan Liu, Weikai Xu, Kun Huang, Changyu Chen, Jiankun Zhao, Pengzhi Gao, Wei Liu, Jian Luan, Shuo Shang, Bo Du, Ji-Rong Wen, Rui Yan
     - 🏛️ Institutions: Renmin University of China, MiLM Plus, Xiaomi, Nanyang Technological University, Wuhan University
     - 📅 Date: February 27, 2026
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICML 2026 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [mixture of experts], [hybrid-capabilities reasoning], [progressive training], [Info-DPO], [CoME]
     - 📖 TLDR: CoME aligns four output-oriented experts with the screen-summary, subtask-planning, action-decision, and action-function stages of mobile-agent reasoning. Progressive expert, router, and chain-of-thought training plus information-gain-driven DPO improve the balance and informativeness of intermediate reasoning, outperforming dense mobile agents and other MoE methods on AITZ and AMEX.
@@ -1875,7 +1875,7 @@ We welcome contributions from the community!
     - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Pengzhi Gao, Wei Liu, Jian Luan
     - 🏛️ Institutions: MiLM Plus, Xiaomi, PKU, CUHK
     - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: Findings of ACL 2026
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [chinese benchmark], [long-horizon tasks], [noise robustness], [auto-evaluation], [MobileBench-OL]
     - 📖 TLDR: MobileBench-OL benchmarks mobile GUI agents on 1,080 online tasks from 80 Chinese apps. It extends evaluation beyond instruction following to long-horizon execution, reasoning and exploration, and robustness to real-world noise, and pairs the benchmark with an automatic evaluation pipeline that supports environment reset.
